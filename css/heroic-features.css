@@ -1,0 +1,43 @@
+/*
+ * Start Bootstrap - Heroic Features (http://startbootstrap.com/)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.card {
+	height: 100%;
+}
+
+.spancolor {
+	font color: #1abc9c;
+}
+
+.col-lg-10 h4 {
+	color: #1abc9c;
+}
+.col-lg-12 h3 {
+/*ext-align: center;*/
+color: green;
+}
+
+.spanfont {
+		font size: 12px;
+}
+
+.pclassx {
+	font-size: 13px;
+	line-height: 200%;
+	display: inline-block;
+	letter-spacing: 20%;
+	font-weight: bold;
+}
