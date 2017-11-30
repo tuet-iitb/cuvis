@@ -1,0 +1,100 @@
+
+<p>If topic = Travelling Salesman Problem<br>Students able to construct a tour but unsure whether the chosen tour is the minimum cost tour.</p>
+
+<p>If topic = Coding Theory<br>Students not able to decide if Position of source coding block & channel coding block in a digital communication block diagram can be interchanged.</p>
+
+<p>If topic = graph theory,<br>Facebook and Twitter,which is directed and which is undirected?<br>Why facebook is both directed and undirected?<br>State reason why facebook is directed.<br>State reason why facebook is undirected.<br>Why Twitter is directed?<br>How to use BFS on facebook?</p>
+
+<p> Topic = Sampling<br><ol type="1"><li>How a data acquisition system (sampler) for a digital  EEG /ECG. Is designed</li><li>Our voice in mobile phone is digital. How voice is converted into digital here?</li><li>When you record a song in your mobile phone what is the initial block it goes into? Why?</li></ol>
+
+<p>Topic = Bubble sort<br>Devise the algorithm followed in bubble sort<br>Give various sorting alogorithms like merge sort, insertion sort as options to the question</p>
+
+<p>Domain â€“ EE, Topic â€“ Signal Transformation<br>Observe the visualization & deduce how  the signal is getting transformed</p>
+<p>Topic = Bubble sort<br>Devise the algorithm followed in bubble sort<br>Give various sorting alogorithms like merge sort, insertion sort as options to the question</p>
+
+<p>If Topic â€“ Signal Transformation<br>Observe the visualization & from your observation deduce how  the signal is getting transformed</p>
+
+<p>Topic = Travelling Salesman Problem<br>To construct a minimum cost tour given graph G, solving process can be broken down into:<br>Construct MST<br>Do a pre-order walk of MST<br>Construct tour</p>
+
+<p>Topic = Signal Transformation<br>If input signal is x(t) and output signal is y(t) = x( t/2), then draw the transformation process.<br>To solve this, the drawing process can be broken down into following steps :<br>identification of constituent transformation process.<br>drawing the intermediate steps to generate the output.</p>
+
+<p>Show the animation output for the Pointer variable y with<br>Prefix operator [Timestamp - 00:01:42]<br>Post-fix operator [Timestamp - 00:03:42]</p>
+
+<p>Show the simulation output for AM , PM, FM (digital amplitude modulation (ASK, phase modulation and frequency modulation) with:<br>input all ones.<br>input all zeros</p> 
+
+<p>Show the animation output for the Pointer variable y with<br>Prefix operator [Timestamp - 00:01:42]<br>Post-fix operator [Timestamp - 00:03:42]</p>
+
+<p>Show the simulation output for AM , PM, FM (digital amplitude modulation (ASK, phase modulation and frequency modulation) with:<br>input all ones.<br>input all zeros</p>
+
+<p><b>Topic = Travelling Saleman Problem</b><br> If <b>parent question</b> to solve with visualization is:<br>Construct a minimum cost tour given a graph.<br> Then,<br><b>Think phase:</b> Think (individually) <br>Constuct the MST<br></p><p><b>Pair Phase:</b> Look into your neighbor's answers<br><ol type="a"><li>Discuss if you do not agree with your friendâ€™s answers</li><li>You can also change your answer</li><li>Together, try to draw the transformed signal </li><li>Give reasons </li></ol><br><b>Share phase:</b> Look at the visualization<br><ol type="a"><li>Compare your answer with what is shown</li><li>Underline the errors  you found in your solution</li><li>Visualization feature used = Checkboxes & Slider Bars</li></ol></p>
+
+<p>Topic = Signal Transformation<br>Parent question:<br>If input signal is x(t) and output signal is y(t) = x( t/2), then identify and draw the transformation process.<br>Then,<br>'Think' phase:<br>(a) Identify what transformation operation is happening<br>(b) Identify the steps in the transformation process<br>'Pair' phase: Look into your neighbor's answers<br>a) Discuss if you do not agree with your friendâ€™s answers<br>b) You can also change your answer<br>c) Together, draw flowchart of the steps in the identified transformation process<br>'Share' phase:<br>Call 1 -2 groups at random & discuss answer</p>
+
+<p>Parent Question : Binary Search Tree can have 2 representations: tree form with nodes & doubly-liked list form. Draw the linked list form after deleting a specified node.</p>
+"Topic = Signal Transformation
+Parent question to solve with visualization is:
+A continuous time signal x (t) is shown on screen. Sketch the signal x(4 -t/2) and write mathematical expression after each transformation."
+"If Topic = Pointers
+Parent Question = 
+Q. See the code on-screen : 
+void fun(int n)
+{
+    Stack S;  
+    while (n > 0)
+    {
+      push(&S, n%2);
+ 
+      n = n/2;
+    }
+ 
+        while (!isEmpty(&S))
+      printf(""%d "", pop(&S)); 
+}
+Predict, with reasoning, the output of the function"
+"Parent question to solve is:
+If input signal x (t) is as shown on screen & the transformation operations on x(t) are :  time scaling by 0.5 units -> time shifting by 1.2 units -> time reversal, then predict what will be the output signal."
+
+<p><b>Topic = Stack<br>Q.See the code on-screen :</b><br>void fun(int n) { Stack S; while (n > 0) { push(&S, n%2); n = n/2; } while (!isEmpty(&S)) \printf(  \"%d\" , pop(&S));\ }<br>Predict, with reasoning, the output of the function<br> Prints binary representation of n in reverse order. <br>Prints binary representation of n <br>Prints the value of Logn <br>Prints the value of Logn in reverse order</p>
+
+<p>Topic = Electromagnetic Wave Propagation<br>Prediction Question = Two traveling waves 1 and 2 seen in visualization, are described by the equations:<br>y1(x,t) = 2 sin(2x â€“ t) , y2(x,t) = 4sin(x â€“ 0.8 t)<br>All the numbers are in the appropriate SI (mks) units. Predict, with reasoning, which wave has the higher speed?<br>A) wave 1 B)wave 2 C) Both have the same speed.</p>
+
+<p>Topic = Binary Search Tree,<br>Parent Question : Binary Search Tree is shown as a doubly-liked list onscreen. Draw the linked list for the intermediate steps when Node 1 is deleted and Node 2 is added at position X.</p>
+
+<p>Topic = Signal Transformation<br>Parent question to solve with visualization is:<br>The input signal & output signal is shown on screen. Sketch the input signal at the various intermediate transformation steps.</p>
+
+<p>Topic = Bubble sort<br>a) Observe the change in patterns for different data sets<br>b) Note the position of the biggest number in the number set after each iteration.</p>
+
+<p>If Topic = Signal Transformation<br>Observe how the input signal x(t) is transformed after<br>(a) time scaling by:<br>(i) 0.5 unit, (ii) 1 unit<br>(b) time shifting by:<br>(i) 0.5 unit,<br>(ii) 1 unit</p>
+
+<p>Q. What is the problem to solve with visualization?<br>A. Observe the visualization on bubble sort to write the pesudocode of the algorithm.<br>Think phase: Think (individually) :<br>a) Identify the pattern in which the numbers are changing their position in each iteration. <br>b) Draw the pattern. Give reasons for your thinking<br>Pair Phase:  Look into your neighbor's answers<br>a) Discuss your pattern with your friend. â€™s answers<br>b) You can also change your answer<br>c) Together, come up with the pseudocode for bubble sort<br>d) Give reasons</p>
+
+<p>Q. What is the problem to solve with visualization?<br>A. Observe the visualization to plot ID vs. VGS  for JFET.<br>Think phase: Think (individually) :<br>Hypothesize the relationship between VDS ,VGS , ID<br>Give reasons for your thinking<br>Pair Phase:  Look into your neighbor's answers<br>a) Discuss if you do not agree with your friendâ€™s answers<br>b) You can also change your answer<br>c) Together, come up with the plot of ID vs. VGS  for JFET<br>d) Give reasons<br>Share phase: Look at the visualization<br>a)Compare your answer with what is shown<br>b) Underline the errors  you found in your solution<br>
+
+<p>If Topic = Pointers<br>Prediction Question = Predict what will be the output if the highlighted code line, as shown on-screen, is executed.</p>
+
+<p>If Topic = Electromagnetic Wave Propagation, <br>Show visualization of wave propagation with Ey component only. Ask students to predict what happens if I add Ez component</p>
+
+<p>If solution steps are:<br>i) Locate position variable of the specified node to delete in Binary Search tree<br>ii) Identify position variable of those nodes that will be altered when the specified node is deleted<br>iii) Draw the changed linked list representation<br>Then,<br>1st PI activity question should be framed on identification of position variable of those nodes which will get altered. In answer options, you should give at least 3 different possibilities where only 1 possibility will be correct.
+<p>Topic = Signal Transformation<br>If solution steps are:<br>i) Identify what transformation operations are happening<br>ii) Identify in what sequence they are happening<br>iii) Stepwise Draw & write mathematical expression for the combination of transformations<br>Then,<br>1st PI activity question:<br>If input signal x (t) is as shown on screen & the output signal is x(4 -t/2), then the transformation undergone by the signal are:<br>(i) time scaling -> time shifting -> time reversal<br>(ii) tine shifting -> time scaling -> time reversal<br>(iii) time reversal -> time scaling -> time shifting
+<p>If solution steps are:<br>i) Locate position variable of the specified node to delete in Binary Search tree<br>ii) Identify position variable of those nodes that will be altered when the specified node is deleted<br>iii) Draw the changed linked list representation<br>Then,<br>2nd PI activity question should be framed on the alterations in the linked list representation.<br>Answer options should be images of at least 3 possible linked list representations, of which 1 will be correct.</p>
+<p>Topic = Signal Transformation<br>If solution steps are:<br>i) Identify what transformation operations are happening<br>ii) Identify in what sequence they are happening<br>iii) Stepwise Draw & write mathematical expression for the combination of transformations<br><br>Then,<br>Think phase: Think (individually) :<br>Identify what transformation operations are happening<br>Identify in what sequence they are happening<br>Draw & write mathematical expression for the first transformation<br>Pair Phase: Look into your neighbor's answers<br>a) Discuss if you do not agree with your friendâ€™s answers<br>b) You can also change your answer<br>c) Together, try to draw the transformed signal<br>d) Give reasons<br><br>Share phase: Look at the visualization<br>a) Compare your answer with what is shown<br>b) Underline the errors  you found in your solution <br>c) Visualization feature used = Checkboxes & Slider bars
+<p>If solution steps are:<br>i) Locate position variable of the specified node to delete in Binary Search tree<br>ii) Identify position variable of those nodes that will be altered when the specified node is deleted<br>iii) Draw the chnaged  linked list representation<br><br>Then,<br>Think phase: Think (individually) :<br>Identify what changes will occur in the linked list form when the specified node is deleted from the tree form.<br>Pair Phase: Look into your neighbor's answers<br>a) Discuss if you do not agree with your friendâ€™s answers<br>b) You can also change your answer<br>c) Together, try to draw the transformed linked list representation <br>d) Give reasons<br>Share phase: Look at the visualization<br>a) Compare your answer with what is shown<br>b) Underline the errors  you found in your solution</p>
+<p>Topic = Signal Transformation<br> If solution steps are: <br> i) Identify what transformation operations are happening<br> ii) Identify in what sequence they are happening<br> iii) Stepwise Draw & write mathematical expression for the combination of transformations<br> Then,<br> Think phase: Think (individually) :<br> Identify what transformation operations are happening<br> Identify in what sequence they are happening<br> Draw & write mathematical expression for the first transformation<br><br> Pair Phase: Look into your neighbor's answers<br> a) Discuss if you do not agree with your friendâ€™s answers<br> b) You can also change your answer<br> c) Together, try to draw the transformed signal<br> d) Give reasons<br>Share phase: Look at the visualization<br>a) Compare your answer with what is shown<br>b) Underline the errors  you found in your solution<br>c) Visualization feature used = Checkboxes & Slider bars</p>
+<p>Topic = Travelling Saleman Problem<br> If parent question to solve with visualization is:<br> Construct a minimum cost tour given a graph.<br> Then,<br> Think phase: Think (individually)<br> a] Construct MST<br> Pair Phase: Look into your neighbor's answers<br> b) Together, do a pre-order walk of MST <br> Share phase: Look at the visualization<br> c) Construct tour<br> d) Visualization feature used = Checkboxes & Slider Bars </p>
+<p>Topic = Signal Transformation<br>If parent question to solve with visualization is: Draw the output signal based on this transformation equation, x(4 -t/2):<br> Then,<br> Think phase: Think (individually)<br> a] Idenitify constituent transformation processes<br> Pair Phase: Look into your neighbor's answers<br> b) Together, sequence the transformation processes<br> Share phase: Look at the visualization<br> c) Draw the output<br> d) Visualization feature used = Checkboxes & Slider Bars</p>
+<p>A] If solution steps are:<br> i) Locate position variable of the specified node to delete in Binary Search tree<br> ii) Identify position variable of those nodes that will be altered when the specified node is deleted<br> iii) Draw the changed Binary Search Tree<br> Then,<br> B] 1st PI activity question should be framed on identification of position variable of those nodes which will get altered. In answer options, you should give at least 3 different possibilities where only 1 possibility will be correct.<br> C] Visualization feature used = Drag/Drop.</p>
+<p>If Topic = Signal Transformation<br> A] If solution steps are:<br> (i) Identify the causal relationship between variables<br> (ii) Conceptualize the working model of the system themselves<br> Then,<br> B] 1st PI activity question:<br> If input signal x (t) is as shown on screen & the transformation operations on x(t) are time scaling by 0.5 units -> time shifting by 4 units -> time reversal, then predict how will the signal transform along time & amplitude axes:<br> (i) Present at least 4 answer options that address common misconceptions.<br> C] Visualization feature used - Slider Bars</p>
+<p>If topic = Binary Search Tree,<br> If solution steps are:<br> i) Locate position variable of the specified node to delete in Binary Search tree<br> ii) Identify position variable of those nodes that will be altered when the specified node is deleted<br> iii) Draw the changed linked list representation<br> Then,<br> 2nd PI activity question should be framed on the alterations in the linked list representation.<br> Answer options should be images of at least 3 possible linked list representations, of which 1 will be correct.</p>
+<p>If Topic = Signal Transformation<br> If solution steps are:<br> i) Identify what transformation operations are happening<br> ii) Identify in what sequence they are happening<br> iii) Stepwise Draw & write mathematical expression for the combination of transformations</p>
+<p>Topic = Bubble sort<br> a) Observe the change in patterns for different data sets<br> b) Note the position of the biggest number in the number set after each iteration.</p>
+<p>If Topic = Signal Transformation<br>Observe the change in signal pattern for different transformation operations.</p>
+p>Topic = Binary Search Tree,<br> If solution steps are: <br> i) Locate position variable of the specified node to delete in Binary Search tree<br> ii) Identify position variable of those nodes that will be altered when the specified node is deleted<br> iii) Draw the changed  linked list representation<br> Then,<br> Think phase: Think (individually) :<br> Identify what changes will occur in the linked list form when the specified node is deleted from the tree form. Pair Phase: Look into your neighbor's answers<br> a) Discuss if you do not agree with your friendâ€™s answers<br> b) You can also change your answer<br> c) Together, try to draw the transformed linked list representation<br> d) Give reasons<br> Share phase: Look at the visualization<br> a) Compare your answer with what is shown<br> b) Underline the errors  you found in your solution</p>
+<p>Topic = Signal Transformation<br> If solution steps are:<br> i) Identify what transformation operations are happening<br> ii) Identify in what sequence they are happening<br> iii) Stepwise Draw/ write mathematical expression for the combination of transformations<br> Then,<br> Think phase: Think (individually) :<br> Identify what transformation operations are happening<br> Identify in what sequence they are happening<br> Draw/ write mathematical expression for the first transformation<br> Pair Phase: Look into your neighbor's answers<br> a) Discuss if you do not agree with your friendâ€™s answers<br> b) You can also change your answer<br> c) Together, try to draw the transformed signal<br> d) Give reasons<br> Share phase: Look at the visualization<br> a) Compare your answer with what is shown<br> b) Underline the errors  you found in your solution<br> c) Visualization feature used = Checkboxes & Slider bars</p>
+<p> 1. Will the printf statement show an increased value of variable y now?<br> 2. What could be the cause behind increase in value of variable y here?</p>
+<p>1. Why do more valves per cylinder increase horsepower?<br> 2. In this case, what was the most direct cause of the bulb blowing up ?</p>
+<p>1. Why do more valves per cylinder increase horsepower?<br> 2. In this case, what was the most direct cause of the bulb blowing up ?</p>
+<p>If topic = graph theory,<br> Facebook and Twitter,which is directed and which is undirected?<br> Why facebook is both directed and undirected?<br> State reason why facebook is directed.<br> State reason why facebook is undirected.<br> Why Twitter is directed?<br> How to use BFS on facebook?</p>
+Image3
+Image4
+Image3 : See in file CuVIS images
+Image4 : See in file CuVIS images

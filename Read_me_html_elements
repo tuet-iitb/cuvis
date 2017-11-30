@@ -1,0 +1,92 @@
+divID:
+	guidelines
+elementID
+	guidelines_element
+
+divID:
+	domain
+elementID
+	domain_element
+divID:
+	example
+elementID
+	example_element
+
+divID:
+	input1_text
+caption
+	input1_text_caption
+InputElementID
+	input1_text_element
+
+divID:
+	input11_text
+caption
+	input11_text_caption
+InputElementID
+	input11_text_element
+
+
+
+
+divID:
+	input2_radio
+caption
+	input2_radio_caption
+InputElementName/ Options
+	input2_radio_element
+
+divID:
+	input4_image
+caption
+	input4_image_caption
+InputElementID
+	input4_image_element
+
+
+divID:
+	input5_text
+caption
+	input5_text_caption
+InputElementID
+	input5_text_element
+	
+
+divID:
+	input6_text
+caption
+	input6_text_caption	
+InputElementID
+	input6_text_element
+
+
+
+divID:
+	input7_radioNested
+caption
+	input7_radioNested_caption
+InputElementName/ Options
+	input7_radioNested_element		
+
+	divID:
+		input7_nested_staticText
+	caption
+		input7_nested_staticText_caption
+
+	divID:
+		input7_nested_text
+	Caption
+		input7_nested_text_caption
+	InputElementID
+		input7_nested_text_element	
+
+	divID:
+		input7_nested_imageText
+	caption
+		input7_nested_imageText_caption
+	InputElementId
+		input7_nested_imageText_element
+		input7_nested_image_element
+
+<p>Show the simulation output for AM , PM, FM (digital amplitude modulation (ASK, phase modulation and frequency modulation) with:<br>input all ones.<br>input all zeros</p>
+<p>If Topic = Signal Transformation<br>Observe the change in signal pattern for different transformation operations.</p>

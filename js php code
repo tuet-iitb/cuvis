@@ -1,0 +1,193 @@
+
+		<?php
+		if($input1Text==0)
+		{
+			?>
+			<script>
+				document.getElementById("input1_text").style.display='none';
+			</script>
+			<?php
+		}
+		?>
+		<?php
+		if($input1_1Text==0)
+		{
+			?>
+			<script>
+				document.getElementById("input1_1_text").style.display='none';
+			</script>
+			<?php
+		}
+		?>
+		<?php
+		if($input2Radio==0)
+		{
+			?>
+			<script>
+				document.getElementById("input2_radio").style.display='none';
+			</script>
+			<?php
+		}
+		?>
+		<?php
+		if($input3Radio==0)
+		{
+			?>
+			<script>
+				document.getElementById("input3_radio").style.display='none';
+			</script>
+			<?php
+		}
+
+
+		?>
+		
+		<?php
+		if($input4Image==0)
+		{
+			?>
+			<script>
+				document.getElementById("input4_image").style.display='none';
+			</script>
+			<?php
+		}
+
+
+		?>
+		<?php
+		if($input5Text==0)
+		{
+			?>
+			<script>
+				document.getElementById("input5_text").style.display='none';
+			</script>
+			<?php
+		}
+
+
+		?>
+		
+		<?php
+		if($input6Text==0)
+		{
+			?>
+			<script>
+				document.getElementById("input6_text").style.display='none';
+			</script>
+			<?php
+		}
+
+
+		?>
+
+		<?php
+		if($input7RadioNested==0)
+		{
+			?>
+			<script>
+				document.getElementById("input7_radio_nested").style.display='none';
+			</script>
+			<?php
+		}
+
+
+		?>
+		
+		<?php
+		if($input7NestedImage==0)
+		{
+			?>
+			<script>
+				document.getElementById("input7_nested_image").style.display='none';
+			</script>
+			<?php
+		}
+
+
+		?>
+
+		<?php
+		if($input7NestedImage==0)
+		{
+			?>
+			<script>
+				document.getElementById("input7_nested_image").style.display='none';
+			</script>
+			<?php
+		}
+
+
+		?>
+
+		<?php
+		if($input7NestedImage==0)
+		{
+			?>
+			<script>
+				document.getElementById("input7_nested_image").style.display='none';
+			</script>
+			<?php
+		}
+
+
+		?>
+		<!-- to display Guidelines -->
+		<?php
+			echo "<script>document.getElementById(\"Guidelines\").innerHTML = \"".$guidelines."\";</script>";
+		?>
+
+		<!-- to display example-->
+		<?php
+			echo "<script>document.getElementById(\"Example\").innerHTML = \"".$example."\";</script>";
+		?>
+
+		<!-- to display input text 1-->
+		<?php
+			echo "<script>document.getElementById(\"input1_caption\").innerHTML = \"".$input1Caption."\";</script>";
+		?>
+
+		<!-- to display input text 1.1-->
+		<?php
+			echo "<script>document.getElementById(\"input1_1_caption\").innerHTML = \"".$input1_1Caption."\";</script>";
+		?>
+		
+
+		<!-- to display input2_radio_caption-->
+		<?php
+			echo "<script>document.getElementById(\"input2_radio_caption\").innerHTML = \"".$input2RadioCaption."\";</script>";
+		?>
+
+		<!-- to display input3_radio_caption-->
+		<?php
+			echo "<script>document.getElementById(\"input3_radio_caption\").innerHTML = \"".$input3RadioCaption."\";</script>";
+		?>
+
+		<!-- to display input4_image_caption-->
+		<?php
+			echo "<script>document.getElementById(\"input3_radio_caption\").innerHTML = \"".$input4ImageCaption."\";</script>";
+		?>
+		<!-- to display input5_text-->
+		<?php
+			echo "<script>document.getElementById(\"input5_caption\").innerHTML = \"".$input5Caption."\";</script>";
+		?>
+
+		<!-- to display input6_text-->
+		<?php
+			echo "<script>document.getElementById(\"input6_caption\").innerHTML = \"".$input6Caption."\";</script>";
+		?>
+
+		<!-- to display input7 bested radio-->
+		<?php
+			echo "<script>document.getElementById(\"input7_radio_caption\").innerHTML = \"".$input7NestedTextCaption."\";</script>";
+		?>
+
+		<!-- to display input7  nexted text caption-->
+		<?php
+			echo "<script>document.getElementById(\"input7_nested_text_caption\").innerHTML = \"".$input7RadioCaption."\";</script>";
+		?>
+		
+
+		<!-- to display input8_nested_text_caption-->
+		<?php
+			echo "<script>document.getElementById(\"input8_nested_text_caption\").innerHTML = \"".$input8NestedTextCaption."\";</script>";
+		?>

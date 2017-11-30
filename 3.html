@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cuvis</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <form action="3.php" method="get" >
+    <div class="col-lg-1"></div>
+      <div class="col-lg-10 container jumbotron">
+        <!-- Instructions Div  page 2 start -->
+      <!-- Instructions Div  page 3 startddfi -->
+      <div class="col-lg-12 div">
+        <!-- <h4><strong><h4>Choose a visualization that has the following features:</h4></strong></h4> -->
+        <h4 >
+          In this section, you will be taken through a set of interactive steps to create your ‘Lesson Plan’. A ‘Lesson Plan’ gives you the full implementation plan in steps. For each step, it guides you to plan out the time for each step, what instructor will do, what student will do, what visualization features to use, if any.
+        </p></h4>
+        <h5><b>Note:</b></h5>
+        <ul>
+          <li>The ‘Lesson Plan’ follows a pedagogical pattern of play-pause-do an activity – resume visualization.</li>
+          <li>Your responses to a set of ‘Activity Construction’ prompts will be stored. You can change your response whenever you want to.</li>
+          <li>Based on your responses to these prompts, CuVIS will generate a ‘Lesson Plan’ tailored to your requirements. You can download and edit the ‘Lesson Plan’ as you wish.</li>
+        </ul>
+      </div>
+      <!-- Instructions Div End  -->
+      <!-- Steps start -->
+      <div class="col-lg-12 div">
+        <label>Choose your preferred activity duration : </label>
+        <label class="radio-inline">
+          <input type="radio" name="optradio" id="T1" value="1" onclick="myFunction4()">5 - 10 Minutes
+        </label>
+        <label class="radio-inline">
+          <input type="radio" name="optradio" id="T2" value="2" onclick="myFunction5()">15 -20 Minutes
+        </label>
+      </div>
+
+      <!-- Steps End -->
+      <!-- Objective Start -->
+
+      <div class="col-lg-12 div" id="t1div15minutes" style="display: none">
+        Strategy Suggested for your Objective:<span><b>Predict Observe Explain</b></span> 
+          <ol>
+            <li>Click on this link to know more about Predict Observe Explain <a href="http://arb.nzcer.org.nz/strategies/poe.php" target="_blank">http://arb.nzcer.org.nz/strategies/poe.php</a></li>
+            <li>Click on 'Next' to proceed through a set of 7 Activity Construction Prompts to create your learning design</li>
+          </ol>
+        </div>   
+
+
+
+        <div class="col-lg-12 div">
+          <input type="submit" name="Next" value="Next" />
+        </div>
+
+      </div>
+      <div class="col-lg-1"></div>
+    </form>
+  </body>
+  <script>
+
+
+    var t1 = document.getElementById('T1');
+    var t2 = document.getElementById('T2');
+
+    var o = document.getElementById('t1div15minutes');
+    if ( t1 = 1 ) 
+    {
+
+      function myFunction4() 
+      {
+        o.style.display = 'block'
+
+
+      }
+    }
+
+    else ( t2 = 2 ) 
+    {
+
+      function myFunction5() 
+      {
+       o.style.display = 'none'
+
+
+     }
+   }
+ </script>
+     
+ </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

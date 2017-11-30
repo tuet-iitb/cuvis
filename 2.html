@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cuvis</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <form action="2.php" method="get">
+    <div class="col-lg-1"></div>
+      <div class="col-lg-10 container jumbotron">
+        <!-- Instructions Div  page 2 start -->
+        
+
+        <div class="col-lg-12 div">
+
+          <h4><strong><h4>Choose a visualization that has the following features:</h4></strong></h4>
+          <ul>
+            <li>Covers the difficult to understand/visualize part of the chosen topic.</li>
+            <li>Shows change in the system with motion/time (in video /animation) Or, Allows (in simulation) user to change values of system variables & see the effect on the system.</li>
+            <li>Allows you to pause whenever you want.</li>
+            <li>Contains text labels/color codes/text explanation with visuals to activate prior knowledge.</li>
+            <li>Shows step wise demonstration of a process.</li>
+          </ul>
+
+        </div>
+
+        <!-- Instructions Div End  -->
+        <!-- Steps start -->
+
+        <div class="col-lg-12 div">
+          <h4>Confirm that your selected visualization has the above features.</h4>
+          <label>Confirm</label>
+          <label class="form-check-label">
+            <input class="form-check-input" id="confirmselectedvisualization" type="checkbox" value="1" >
+            OK
+          </label>
+        </div>
+
+        
+        <!-- Steps End -->
+        <!-- Enter Url Start -->
+
+        <div class="col-lg-12 div" id="url2page" style="display: none">
+         <label for="inputlg">Enter URL</label>
+         <input class="form-control input-lg" id="url_v" type="text" placeholder="type your URL here">
+         <br>
+       </div>
+        
+
+       <!-- Enter URL End -->
+       <!--  Course and Topic  start-->
+       
+       <div class="col-lg-12 div">
+        <input type="submit" name="Next" value="Next" />
+      </div>
+
+      
+    </div>
+    <div class="col-lg-1"></div>
+
+</form>
+</body>
+<script>
+
+$(document).ready(function () {
+    $('#confirmselectedvisualization').change(function () {
+        if (this.checked) 
+          $('#url2page').show();
+          /* $('#url2page').fadeIn('slow');*/
+        else 
+            $('#url2page').hide();
+    });
+});
+
+  /*
+  var c = document.getElementById('confirmselectedvisualization');
+  var u = document.getElementById('url2page');
+  if ( c = 1 ) 
+  {
+
+    function myFunction3() 
+    {
+        u.style.display = 'block'
+        
+      
+    }
+  }
+
+ else 
+  {
+
+    function myFunction1() 
+    {
+        u.style.display = 'none';
+      
+        
+
+    }
+  }*/
+  
+
+
+
+
+
+</script>
+
+</html>
