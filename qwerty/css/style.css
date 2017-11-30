@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a, a:hover, a:visited, a:focus{
+	text-decoration: none;
+}
+.middlepart{
+	background: url(../images/selection-3.jpg);
+	/*background: url(../images/thinking-skills-2.jpg);*/
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+}
+.top-section{
+	background-color: rgba(0,0,0,1);
+}
+.top-section p{
+	font-family: 'Lato', sans-serif;
+	font-size: 2em;
+	color: #fff;
+	margin-bottom: 0;
+	line-height: 95px;
+}
+.register{
+	padding-top: 0.25em;
+	padding-bottom: 0.25em; 
+}
+.login-form label, .register-form label{
+	font-size: 1em;
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	font-weight: 100;
+	padding-top: 0.25em;
+}
+.login-form input, .register-form input{
+	outline: none;
+	border-radius: 0px;
+	box-shadow: none;
+	border: none;
+	padding: 2px 10px;
+	height: 27px;
+}
+.login-form input:focus, input:active, .register-form input:focus, input:active{
+	box-shadow: none;
+}
+.login-btn{
+	padding: 4px 25px;
+	border-radius: 0px;
+	background: #953163;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.8em;
+	font-weight: 100;
+	color: #fff;
+	margin-top: 2.7em;
+}
+.login-btn:hover, .register-btn:hover{
+	color: #fff;
+	background: #6d2348;
+}
+.register{
+	background-color: #fff;
+	height: auto;
+}
+.thinking-title{
+	padding-top: 6em;
+}
+.thinking-title p:nth-child(1){
+	font-family: 'Lato', sans-serif;
+	font-size: 2.225em;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 0.5em;
+}
+.thinking-title p:nth-child(2){
+	font-family: 'Lato', sans-serif;
+	font-size: 1.3em;
+	text-align: center;
+	font-weight: 100;
+	color: #fff;
+}
+.thinking-title p:nth-child(3){
+	font-family: 'Lato', sans-serif;
+	font-size: 1.3em;
+	text-align: center;
+	font-weight: 100;
+	color: #fff;
+}
+.thinking-register{
+	background-color: rgba(0,0,0,0.6);
+	height: auto;
+}
+.thinking-register p:nth-child(1){
+	font-family: 'Lato', sans-serif;
+	font-size: 1.4em;
+	color: #fff;
+	padding-top: 0.25em;
+}
+.register-btn{
+	padding: 4px 25px;
+	border-radius: 0px;
+	background: #953163;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.8em;
+	font-weight: 100;
+	color: #fff;
+}
+footer p{
+	margin-bottom:0;
+	font-size: 1.3125em;
+	font-weight: 100;
+	color: #fff;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+}
+
+
